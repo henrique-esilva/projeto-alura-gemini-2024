@@ -1,7 +1,7 @@
 function findOnData(text) {
 	let vec = [];
 	for (let post of postsData) {
-		if ( post.title.includes(text) || post.content.includes(text) ) {
+		if ( post.title.toLowerCase().includes(text) || post.content.toLowerCase().includes(text) ) {
 			vec.push(post);
 		}
 	}
@@ -11,7 +11,7 @@ function findOnData(text) {
 function searchButtonAction() {
 	postsArea = document.getElementById("postsArea");
 	postsArea.innerHTML = ``;
-	content = document.getElementById('searchField').value;
+	content = document.getElementById('searchField').value.toLowerCase();
 	if (content != '') {
 		match = findOnData(content);
 		insertPosts( match, postsArea );
