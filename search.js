@@ -15,5 +15,5 @@ function searchButtonAction() {
 	if (content != '') {
 		match = findOnData(content);
 		insertPosts( match, postsArea );
-	}
+	} else {showAll();}
 }

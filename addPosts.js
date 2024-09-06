@@ -25,5 +25,7 @@ function insertPosts(posts, elementoPai) {
 	elementoPai.innerHTML = conteudo;
 }
 
-//postsArea = document.getElementById("postsArea");
-//insertPosts(postsData, postsArea);
+function showAll() {
+	postsArea = document.getElementById("postsArea");
+	insertPosts(postsData, postsArea);
+}
