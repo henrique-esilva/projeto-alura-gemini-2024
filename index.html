@@ -6,14 +6,19 @@
 		<title>CuriosiGatos.com</title>
 		<link rel="stylesheet" href="./style.css">
 		<script src='./data.js'></script>
+		<script src='./addPosts.js'></script>
+		<script src='./search.js'></script>
 	</head>
 	<body>
 		<header class="mainHeader">
 			<h1>CuriosiGatos</h1>
 			<small>Conheça melhor os pets mais incríveis de todos</small>
 		</header>
+		<div class="searchArea">
+			<input type="text" id="searchField" class="searchField"></input>
+			<button id="searchButton" class="searchButton" onclick=searchButtonAction()>Pesquisar curiosidade</button>
+		</div>
 		<div id="postsArea" class="postsArea"></div>
-		<script src='./addPosts.js'></script>
 	</body>
 	<footer>
 		<div class="footerSideASide">

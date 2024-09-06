@@ -5,6 +5,33 @@ body {
 	margin: 0px;
 }
 
+.mainHeader {
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-top: 40px;
+	margin: 30px;
+}
+
+h1 {
+	font-family: "Playfair Display", serif;
+	margin: 0;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	font-weight: 1000;
+	font-size: 3.5rem;
+}
+
+.mainHeader small {
+	font-family: 'Arial';
+	font-size: 0.8rem;
+}
+
+body .searchArea {
+	margin-right: 40px;
+	margin-left: 40px;
+	margin-bottom: 20px;
+}
+
 body .postsArea .postInstance p {
 	font-family: 'Arial', serif;
 	font-size: 1rem;
@@ -65,28 +92,8 @@ footer .footerSideASide p {
 	margin-bottom: 0px;
 }
 
-h1 {
-	font-family: "Playfair Display", serif;
-	margin: 0;
-	padding-bottom: 4px;
-	padding-top: 4px;
-	font-weight: 1000;
-	font-size: 3.5rem;
-}
+
 
 h2 {
 	font-family: "Arial";
-}
-
-.mainHeader small {
-	font-family: 'Arial';
-	font-size: 0.8rem;
-}
-
-.mainHeader {
-	margin: 0px;
-	padding-right: 40px;
-	padding-left: 40px;
-	padding-top: 40px;
-	margin: 30px;
 }
