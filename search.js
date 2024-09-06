@@ -9,7 +9,11 @@ function findOnData(text) {
 }
 
 function searchButtonAction() {
+	postsArea = document.getElementById("postsArea");
+	postsArea.innerHTML = ``;
 	content = document.getElementById('searchField').value;
-	match = findOnData(content);
-	insertPosts( match, document.getElementById("postsArea") );
+	if (content != '') {
+		match = findOnData(content);
+		insertPosts( match, postsArea );
+	}
 }
