@@ -1,7 +1,7 @@
 # Projeto Alura Gemini 2024
 
 ## Apresentação
-O meu projeto é um projeto simples que mostra algumas curiosidades sobre gatos numa página html. Cada informação presente possui título e conteúdo. 
+O meu projeto é um site simples de curiosidades sobre gatos. Cada curiosidade presente possui título e conteúdo. 
 A página index.html carrega os scripts data.js e addPosts.js, além de um elemento `<div>`, com o id "postsArea" para conter as curiosidades. 
 
 No script data.js existe um vetor onde ficam as curiosidades que serão exibidas na página.
